@@ -187,7 +187,7 @@ type UserInfo struct {
 	Subject       string `json:"sub"`
 	Profile       string `json:"profile"`
 	Email         string `json:"email"`
-	EmailVerified bool   `json:"email_verified"`
+	EmailVerified bool   `json:"email_verified,string"`
 
 	claims []byte
 }
